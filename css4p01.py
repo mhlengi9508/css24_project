@@ -1,16 +1,9 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jan 30 04:44:00 2024
-
-@author: 0154505
-"""
-
 import pandas as pd
 from ydata_profiling import ProfileReport
 
 file = pd.read_csv('movie_dataset.csv')
 
-# Data reading and infomation
+# Data reading and information
 
 print(file)
 
